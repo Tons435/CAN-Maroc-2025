@@ -1,0 +1,63 @@
+﻿Date;Match;Groupe;Stade;Ville
+21-déc-25;Maroc - Comores;A;Stade Prince Moulay Abdellah;Rabat
+22-déc-25;Mali - Zambie;A;Stade Mohammed V;Casablanca
+22-déc-25;Égypte - Zimbabwe;B;Grand stade d’Agadir;Agadir
+22-déc-25;Afrique du Sud - Angola;B;Grand stade de Marrakech;Marrakech
+23-déc-25;Nigeria - Tanzanie;C;Stade du Complexe sportif de Fès;Fès
+23-déc-25;Tunisie - Ouganda;C;Stade annexe olympique Moulay Abdellah;Rabat
+23-déc-25;Sénégal - Botswana;D;Grand stade de Tanger;Tanger
+23-déc-25;RD Congo - Bénin;D;Stade El Barid, Rabat;Rabat
+24-déc-25;Algérie - Soudan;E;Stade Prince Moulay El Hassan;Rabat
+24-déc-25;Burkina Faso - Guinée équatoriale;E;Stade Mohammed V;Casablanca
+24-déc-25;Côte d'Ivoire - Mozambique;F;Grand stade de Marrakech;Marrakech
+24-déc-25;Cameroun - Gabon;F;Grand stade d’Agadir;Agadir
+26-déc-25;Maroc - Mali;A;Stade Prince Moulay Abdellah;Rabat
+26-déc-25;Zambie - Comores;A;Stade Mohammed V;Casablanca
+26-déc-25;Égypte - Afrique du Sud;B;Grand stade d’Agadir;Agadir
+26-déc-25;Angola - Zimbabwe;B;Grand stade de Marrakech;Marrakech
+27-déc-25;Nigeria - Tunisie;C;Stade du Complexe sportif de Fès;Fès
+27-déc-25;Ouganda - Tanzanie;C;Stade El Barid;Rabat
+27-déc-25;RD Congo - Sénégal;D;Grand stade de Tanger;Tanger
+27-déc-25;Bénin - Botswana;D;Stade annexe olympique Moulay Abdellah;Rabat
+28-déc-25;Algérie - Burkina Faso;E;Stade Prince Moulay El Hassan;Rabat
+28-déc-25;Guinée équatoriale - Soudan;E;Stade Mohammed V;Casablanca
+28-déc-25;Cameroun - Côte d'Ivoire;F;Grand stade de Marrakech;Marrakech
+28-déc-25;Gabon - Mozambique;F;Grand stade d’Agadir;Agadir
+29-déc-25;Maroc - Zambie;A;Stade Prince Moulay Abdellah;Rabat
+29-déc-25;Comores - Mali;A;Stade Mohammed V;Casablanca
+29-déc-25;Égypte - Angola;B;Grand stade d’Agadir;Agadir
+29-déc-25;Zimbabwe - Afrique du Sud;B;Grand stade de Marrakech;Marrakech
+30-déc-25;Nigeria - Ouganda;C;Stade du Complexe sportif de Fès;Fès
+30-déc-25;Tanzanie - Tunisie;C;Stade annexe olympique Moulay Abdellah;Rabat
+30-déc-25;Botswana - RD Congo;D;Stade El Barid;Rabat
+30-déc-25;Bénin - Sénégal;D;Grand stade de Tanger;Tanger
+31-déc-25;Guinée équatoriale - Algérie;E;-;-
+31-déc-25;Burkina Faso - Soudan;E;Stade Mohammed V;Casablanca
+31-déc-25;Cameroun - Mozambique;F;Grand stade d’Agadir;Agadir
+31-déc-25;Côte d'Ivoire - Gabon;F;Grand stade de Marrakech;Marrakech
+HUITIEMES DE FINALE;;;;
+Date;Match;Groupe;Stade;Ville
+03-janv-26;1er groupe D - 3ème groupe B/E/F(H1);-;Grand stade de Tanger;Tanger
+03-janv-26;2ème groupe A - 2ème groupe C(H2);-;Stade Mohammed V;Casablanca
+04-janv-26;2ème groupe B - 2ème groupe F(H3);-;Stade El Barid;Rabat
+04-janv-26;1er groupe A - 3ème groupe C/D/E(H4);-;Stade Prince Moulay Abdellah;Rabat
+05-janv-26;1er groupe B - 3ème groupe A/C/D(H5);-;Grand stade d’Agadir;Agadir
+05-janv-26;1er groupe C - 3ème groupe A/B/F(H6);-;Stade du Complexe sportif de Fès;Fès
+06-janv-26;1er groupe F - 2ème groupe E(H7);-;Grand stade de Marrakech;Marrakech
+06-janv-26;1er groupe E - 2ème groupe D(H8);-;Stade Prince Moulay El Hassan;Rabat
+QUARTS DE FINALE;;;;
+Date;Match;Groupe;Stade;Ville
+09-janv-26;Vainqueur H1 - Vainqueur H2 (Q1);-;Grand stade de Tanger;Tanger
+09-janv-26;Vainqueur H3 - Vainqueur H4 (Q2);-;Stade Prince Moulay Abdellah;Rabat
+10-janv-26;Vainqueur H5 - Vainqueur H7 (Q3);-;Grand stade de Marrakech;Marrakech
+10-janv-26;Vainqueur H8 Vainqueur H6 (Q4);-;Grand stade d’Agadir;Agadir
+DEMIE FINALE;;;;
+Date;Match;Groupe;Stade;Ville
+14-janv-26;Vainqueur Q1 - Vainqueur Q3;-;Stade Prince Moulay Abdellah;Rabat
+14-janv-26;Vainqueur Q4 - Vainqueur Q2;-;Grand stade de Tanger;Tanger
+TROISIEME PLACE;;;;
+Date;Match;Groupe;Stade;Ville
+17-janv-26; ? -  ?;-;Stade Mohammed V;Casablanca
+FINALE;;;;
+Date;Match;Groupe;Stade;Ville
+18-janv-26; ? -  ?;-;Stade Prince Moulay Abdellah;Rabat

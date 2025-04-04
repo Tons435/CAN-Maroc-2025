@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAN 2025 - Carte Interactive</title>
+    <!-- Lien vers le fichier CSS de Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- <!– appelle la librairie javascript Leaflet et le fichier CSS Leaflet –> -->
+<script type="text/javascript" src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script> 
+
+
+<!-- Lien vers le fichier CSS personnalisé -->
+<link rel="stylesheet" href="style.css">
+<!-- <!– jQuery – indispensable pour utiliser les fichiers geojson –> -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>    
+    
+</head>
+
+
+
+<body onload="initialize()">
+    <header>
+        <h1>CAN 2025 - Carte Interactive</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="equipes.html">Équipes</a></li>
+                <li><a href="base_de_donnee.php">Programmes des matchs</a></li>
+                <li><a href="carte.html">Carte Interactive</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="carte-interactive">
+        <h2>Cartograhie de la CAN 2025</h2>
+        <!-- Conteneur de la carte -->
+        <div id="mapid" style="height: 600px;"></div>
+
+
+    </section>
+    <footer>
+        <p>&copy; FALLE THIAM - 2025 CAN Maroc. Tous droits réservés.</p>
+        <div class="bande-defilante">
+            <marquee behavior="scroll" direction="left">
+                🏆 CAN 2025 au Maroc : Du 21 décembre 2025 au 18 janvier 2026 | ⚽ 24 équipes en compétition | 📍 9 stades dans 6 villes | SN Le Sénégal grand favori !
+            </marquee>
+        </div>
+        
+    </footer>
+    <!-- Lien vers le fichier JavaScript de Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Lien vers le fichier JavaScript pour la configuration de la carte -->
+    <script src="carte.js"></script>
+
+   
+</body>
+</html>

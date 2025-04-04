@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAN 2025 - Maroc</title>
+    <!-- Lien vers le fichier CSS -->
+
+    <!-- <!– appelle la librairie javascript Leaflet et le fichier CSS Leaflet –> -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <script type="text/javascript" src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+    <!-- <! lien vers mon fichier CSS –> -->
+    <link rel="stylesheet" href="style.css">
+    <!-- <!– jQuery – indispensable pour utiliser les fichiers geojson –> -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <img src=images/afcon2025_logo_land_color-v1.png>  
+
+        <h1>Bienvenue sur le site officiel de la CAN 2025 - Maroc</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="equipes.html">Équipes</a></li>
+                <li><a href="base_de_donnee.php">Programmes des matchs</a></li>
+                <li><a href="carte.html">Carte Interactive</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="equipes-qualifiees">
+        <h2>CAN 2025: dates, stades, villes, le calendrier complet des matchs</h2>
+        <p>
+            Après le tirage au sort effectué lundi 27 janvier, la Confédération africaine de foot a dévoilé le
+            calendrier officiel des matches de la CAN 2025 qui aura lieu du 21 décembre 2025 au 18 janvier 2026.
+            <br />
+
+            <!-- <img src="images/felix-houphouet-boigny-stadium.webp"> -->
+             <!-- Section principale avec l'image d'accueil et le quiz -->
+    <section id="accueil">
+        <img src="images/felix-houphouet-boigny-stadium.webp" alt="Stade Félix Houphouët-Boigny" class="background-image">
+        
+        <!-- Conteneur du quiz -->
+        <div class="quiz-container">
+            <h1>Quiz : Devinez le pays vainqueur de la CAN</h1>
+            <div id="question"></div>
+            <div id="options"></div>
+            <button id="next-btn">Question suivante</button>
+            <div id="result"></div>
+        </div>
+    </section>
+
+            <br><br>
+
+
+        <div id="audio-controls">
+            <h5>Ecouter cet article</h5>
+            <!-- Bouton Play/Pause -->
+            <button id="play-pause-button">
+                <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M8 5v14l11-7z" />
+                </svg>
+                <svg id="pause-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                    style="display: none;">
+                    <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+                </svg>
+            </button>
+
+            <!-- Temps écoulé -->
+            <span id="current-time">0:00</span>
+
+            <!-- Barre de progression -->
+            <input type="range" id="progress-bar" min="0" max="100" value="0">
+
+            <!-- Temps restant -->
+            <span id="remaining-time">-0:00</span>
+
+            <!-- Durée totale -->
+            <span id="duration">0:00</span>
+        </div>
+        <br><br>
+
+        Pour cette compétition à cheval sur deux ans, la CAF a prévu des jours de repos le 25 décembre et le 1er
+        janvier.
+        Les rencontres se dérouleront pour la première fois dans neuf stades répartis dans six villes. La capitale,
+        Rabat, se taille la part du lion avec quatre stades hôtes. Retrouvez le calendrier complet de la CAN 2025.
+
+        Elles connaissent leurs adversaires ! Les 24 équipes africaines sont désormais fixées sur le programme qui
+        les attend lors de la phase finale de la Coupe d’Afrique des nations 2025 qui aura lieu au Maroc, du 21
+        décembre 2025 au 18 janvier 2026. Le tirage au sort de l’épreuve a été effectué ce lundi au théâtre Mohammed
+        V de Rabat, la capitale du Maroc, par les anciennes stars du football Mustapha Hadji (Maroc), Serge Aurier
+        (Côte d’Ivoire), Aliou Cissé (Sénégal) et Joseph Yobo (Nigeria). Le Ghana, éliminé en phase de poules, sera
+        le grand absent de la compétition.
+
+        Le Maroc, demi-finaliste de la Coupe du monde 2022, sera l’un des grands favoris de cette CAN 2025. Devant
+        leur public, les Lions de l’Atlas tenteront de remporter, 50 ans après, un trophée qu’ils n’ont soulevé
+        qu’une fois dans leur histoire, en 1976. Le Ghana, éliminé en phase de poules, sera le grand absent de la
+        compétition.
+
+
+        L’annonce par le Maroc des neuf stades retenus pour accueillir la phase finale de la Coupe d’Afrique des Nations
+        CAF TotalEnergies en décembre marque une avancée significative dans l’histoire du tournoi, augmentant
+        considérablement le nombre d’enceintes utilisées depuis la première édition en 1957.
+
+        Dix-huit pays ont accueilli la CAN, depuis le tournoi inaugural au Soudan jusqu’à la dernière édition en Côte
+        d’Ivoire, avec un total de 83 stades ayant servi de théâtre aux matchs de la phase finale. Avec l’édition
+        marocaine, ce chiffre grimpera à 89.
+
+        Le Complexe Sportif Prince Moulay Abdellah sera le centre névralgique de la compétition, en accueillant le match
+        d’ouverture, la finale et cinq autres rencontres. De son côté, le mythique Stade Mohammed V de Casablanca, qui
+        fut le théâtre de la finale de l’édition 1988 lorsque le Maroc avait organisé le tournoi, sera l’hôte de huit
+        rencontres en 2025. Ce sera également le cas du Grand Stade d’Agadir et du Grand Stade de Marrakech.
+
+        Avec 35 matchs répartis sur quatre éditions, dont quatre finales, le Stade International du Caire détient le
+        record du plus grand nombre de rencontres accueillies dans l’histoire du tournoi. Il est suivi par le Stade
+        d’Accra (32 matchs), le Stade Baba Yara à Kumasi (26), le Stade d’Addis-Abeba (25) et le Stade Ahmadou Ahidjo à
+        Yaoundé (21).
+
+        Le Stade de l’Amitié à Dakar détient le record du plus grand nombre de matchs disputés dans un même stade lors
+        d’une seule édition, avec 14 rencontres au programme de la CAN 1992 organisée au Sénégal. Quant au Stade
+        Municipal de Khartoum, il a eu l’honneur d’accueillir les premiers matchs de l’histoire de la Coupe d’Afrique
+        des Nations.
+
+        L’édition 2025 établit un nouveau standard avec neuf stades mobilisés, un record qui dépasse les six enceintes
+        utilisées par le Mali lors de la CAN 2002, à l’époque disputée par 16 équipes sur 32 matchs.
+
+        </p>
+        <section id="sponsors">
+            <h1> Sponsor en Titre Officiel </h1>
+            
+    <img class= "img1"src ="images/totaleneriges.webp">
+
+    <h2>Partenaires officiels de la CAF</h2>
+     <div class="image">
+            <img src ="images/puma.webp">
+            <img src ="images/1xbet.webp">
+            <img src ="images/visa.webp">
+            <img src ="images/orange.webp">
+            <img src ="images/rexona.webp">        
+     </div>
+    <h3>Fournisseur Officiel</h3>
+    <img class="img1"src ="images/website_agl.webp">
+
+        </section>
+        
+
+
+
+    </section>
+
+
+    <footer>
+        <p>&copy; FALLE THIAM - 2025 CAN Maroc. Tous droits réservés.</p>
+        <div class="bande-defilante">
+            <marquee behavior="scroll" direction="left">
+                🏆 CAN 2025 au Maroc : Du 21 décembre 2025 au 18 janvier 2026 | ⚽ 24 équipes en compétition | 📍 9 stades dans 6 villes | SN Le Sénégal grand favori !
+            </marquee>
+        </div>
+        
+    </footer>
+    <!-- Lien vers le fichier JavaScript pour la page d'accueil -->
+    <script src="accueil.js"></script>
+    <script src="vocal.js"></script>
+    <script src="Quiz.js"></script>
+        
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
